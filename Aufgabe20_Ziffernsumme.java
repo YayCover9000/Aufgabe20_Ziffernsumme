@@ -16,7 +16,7 @@ public class Aufgabe20_Ziffernsumme {
 			intArray[i] = eingabe.charAt(i) - 48;
 			// und aus diesem Array kannst Du dann wieder leicht die einzelnen Ziffern aufsummieren
 		}
-		//Version 1A
+		//Version 1 PrintOut
 		for(int e: intArray) {
 			//System.out.println(e);
 			ausgabe += e;
@@ -46,6 +46,7 @@ public class Aufgabe20_Ziffernsumme {
 			zahl = zahl / 10;               // die letzte Ziffer wird entfernt
 			
 		}
+		//Version 2 PrintOut
 		System.out.println("Ausgabe: " + summe);
 	}
 }
