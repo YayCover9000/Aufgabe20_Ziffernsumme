@@ -3,10 +3,11 @@ import java.util.Scanner;
 public class Aufgabe20_Ziffernsumme {
 	public static void main(String [] args) {
 		Scanner sc = new Scanner(System.in);
-		//int input = sc.nextInt();
+		String eingabe = sc.next();
+		int zahl = sc.nextInt();
 		
 		//Version1
-		String eingabe = "4711";
+			//String eingabe = "4711";
 		int ausgabe = 0;
 		// erzeugt dir ein Array mit der Länge des Eingabestrings (also deiner zahl)
 		int[] intArray = new int[eingabe.length()];		
@@ -29,7 +30,7 @@ public class Aufgabe20_Ziffernsumme {
 		
 		
 		//Version2
-		int zahl = 4711;
+			//int zahl = 4711;
 		int summe;
 		int ziffer;
 		
